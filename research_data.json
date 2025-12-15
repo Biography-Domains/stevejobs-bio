@@ -1,0 +1,1832 @@
+{
+  "phases": {
+    "phase_1": {
+      "workingThesis": {
+        "text": "Steve Jobs may represent a case study in how individual genius narratives obscure complex organizational, cultural, and technological contexts that enabled innovation at Apple, with his personal mythology potentially overshadowing systematic analysis of collective achievement and industry dynamics",
+        "confidence": 0.2
+      },
+      "dominantNarratives": [
+        "Visionary genius who single-handedly revolutionized multiple industries through pure creative force and perfectionist design sense",
+        "Redemption story of a flawed but brilliant leader who was fired from his own company, learned humility, and returned to save Apple from bankruptcy",
+        "Tragic hero whose obsessive pursuit of perfection and controlling personality both enabled his success and contributed to personal and professional costs"
+      ],
+      "knownControversies": [
+        {
+          "topic": "Attribution of credit for key innovations (GUI, touchscreen interfaces, etc.) versus building on existing work",
+          "status": "disputed"
+        },
+        {
+          "topic": "Management style and treatment of employees - genius demanding excellence vs. abusive behavior",
+          "status": "disputed"
+        },
+        {
+          "topic": "Role in Apple's early success versus contributions of Wozniak and other co-founders",
+          "status": "disputed"
+        },
+        {
+          "topic": "Alternative medicine choices and delayed conventional cancer treatment",
+          "status": "unresolved"
+        },
+        {
+          "topic": "Labor practices and working conditions in Apple's supply chain during his tenure",
+          "status": "disputed"
+        }
+      ],
+      "researchQuestions": [
+        "How much of the 'lone genius' narrative reflects later mythmaking versus contemporaneous documentation?",
+        "What role did broader teams, industry trends, and technological timing play versus individual contribution?",
+        "How do accounts from non-executive Apple employees differ from the dominant narrative?",
+        "What contradictions exist between public persona and private behavior according to family/close associates?",
+        "Who has financial or reputational interests in maintaining or challenging the dominant narrative?",
+        "How has the narrative evolved since his death in 2011 versus accounts during his lifetime?",
+        "What aspects of his business philosophy or personal life are consistently downplayed in popular accounts?"
+      ],
+      "subjectMetadata": {
+        "fullName": "Steven Paul Jobs",
+        "birthDate": "1955-02-24",
+        "birthPlace": "San Francisco, California, United States",
+        "deathDate": "2011-10-05",
+        "primaryOccupations": [
+          "entrepreneur",
+          "business executive",
+          "industrial designer"
+        ],
+        "eraActive": "1970s-2010s"
+      },
+      "_phase": 1,
+      "_generated_at": "2025-12-15T16:39:14.911999"
+    },
+    "phase_2": {
+      "secondarySources": [
+        {
+          "id": "src_isaacson_2011",
+          "type": "biography",
+          "title": "Steve Jobs",
+          "author": "Walter Isaacson",
+          "year": 2011,
+          "publisher": "Simon & Schuster",
+          "distanceFromSubject": "direct",
+          "biasNotes": "Authorized biography with extensive interviews with Jobs himself; potential hagiographic elements due to subject's cooperation and timing near death",
+          "keyContributions": [
+            "Direct quotes from Jobs",
+            "Family perspectives",
+            "Late-career reflections",
+            "Personal health struggles"
+          ]
+        },
+        {
+          "id": "src_schlender_2015",
+          "type": "biography",
+          "title": "Becoming Steve Jobs: The Evolution of a Reckless Upstart into a Visionary Leader",
+          "author": "Brent Schlender and Rick Young",
+          "year": 2015,
+          "publisher": "Crown Business",
+          "distanceFromSubject": "direct",
+          "biasNotes": "Schlender had 25+ year relationship with Jobs as journalist; more sympathetic portrayal challenging Isaacson's characterizations",
+          "keyContributions": [
+            "Long-term journalist perspective",
+            "Evolution narrative",
+            "Pixar years detail",
+            "Leadership development focus"
+          ]
+        },
+        {
+          "id": "src_kahney_2008",
+          "type": "biography",
+          "title": "Inside Steve's Brain",
+          "author": "Leander Kahney",
+          "year": 2008,
+          "publisher": "Portfolio",
+          "distanceFromSubject": "indirect",
+          "biasNotes": "Technology journalist without direct access; relies heavily on public statements and employee accounts",
+          "keyContributions": [
+            "Product development insights",
+            "Corporate culture analysis",
+            "Marketing strategy examination"
+          ]
+        },
+        {
+          "id": "src_gassee_1987",
+          "type": "biography",
+          "title": "The Third Apple: Personal Computers and the Cultural Revolution",
+          "author": "Jean-Louis Gass\u00e9e",
+          "year": 1987,
+          "publisher": "Harcourt Brace Jovanovich",
+          "distanceFromSubject": "direct",
+          "biasNotes": "Former Apple executive who worked closely with Jobs; insider perspective but potential corporate loyalty bias",
+          "keyContributions": [
+            "Early Apple culture",
+            "Technical development process",
+            "Executive team dynamics"
+          ]
+        },
+        {
+          "id": "src_moritz_2009",
+          "type": "biography",
+          "title": "Return to the Little Kingdom: Steve Jobs, Apple Computer and How It All Began",
+          "author": "Michael Moritz",
+          "year": 2009,
+          "publisher": "Overlook Press",
+          "distanceFromSubject": "indirect",
+          "biasNotes": "Time magazine reporter with early access; updated edition incorporates later career but maintains 1980s perspective",
+          "keyContributions": [
+            "Founding era detail",
+            "Early investor context",
+            "Silicon Valley ecosystem"
+          ]
+        },
+        {
+          "id": "src_wozniak_2006",
+          "type": "biography",
+          "title": "iWoz: Computer Geek to Cult Icon",
+          "author": "Steve Wozniak with Gina Smith",
+          "year": 2006,
+          "publisher": "W. W. Norton & Company",
+          "distanceFromSubject": "direct",
+          "biasNotes": "Co-founder's memoir with complex relationship to Jobs; technical focus may downplay business acumen",
+          "keyContributions": [
+            "Technical founding details",
+            "Partnership dynamics",
+            "Early product development",
+            "Personal relationship tensions"
+          ]
+        },
+        {
+          "id": "src_gibney_2015",
+          "type": "documentary",
+          "title": "Steve Jobs: The Man in the Machine",
+          "author": "Alex Gibney",
+          "year": 2015,
+          "publisher": "Magnolia Pictures",
+          "distanceFromSubject": "indirect",
+          "biasNotes": "Critical documentary perspective without Apple cooperation; focuses on darker aspects of legacy",
+          "keyContributions": [
+            "Labor practices criticism",
+            "Personal relationships examination",
+            "Corporate responsibility questions"
+          ]
+        }
+      ],
+      "eventMatrix": [
+        {
+          "eventId": "evt_apple_founding",
+          "eventDescription": "Founding of Apple Computer in garage with Wozniak",
+          "sourcesAgreeing": 6,
+          "sourcesDisagreeing": 1,
+          "disagreementNotes": "Wozniak emphasizes his technical contribution over Jobs' role; others focus on Jobs' vision"
+        },
+        {
+          "eventId": "evt_lisa_relationship",
+          "eventDescription": "Denial of paternity and relationship with daughter Lisa",
+          "sourcesAgreeing": 5,
+          "sourcesDisagreeing": 0,
+          "disagreementNotes": "Agreement on facts but varying interpretations of motivations and impact"
+        },
+        {
+          "eventId": "evt_apple_firing",
+          "eventDescription": "Departure/firing from Apple in 1985 after boardroom coup",
+          "sourcesAgreeing": 4,
+          "sourcesDisagreeing": 2,
+          "disagreementNotes": "Gassee and corporate sources frame as resignation; others as forced removal"
+        },
+        {
+          "eventId": "evt_next_founding",
+          "eventDescription": "Founding of NeXT Computer after leaving Apple",
+          "sourcesAgreeing": 7,
+          "sourcesDisagreeing": 0,
+          "disagreementNotes": "Consensus on timeline and basic facts"
+        },
+        {
+          "eventId": "evt_pixar_acquisition",
+          "eventDescription": "Purchase of Pixar from Lucasfilm and development into animation studio",
+          "sourcesAgreeing": 5,
+          "sourcesDisagreeing": 1,
+          "disagreementNotes": "Schlender emphasizes creative vision; others focus on business transformation"
+        },
+        {
+          "eventId": "evt_apple_return",
+          "eventDescription": "Return to Apple through NeXT acquisition in 1997",
+          "sourcesAgreeing": 7,
+          "sourcesDisagreeing": 0,
+          "disagreementNotes": "Universal agreement on facts and significance"
+        },
+        {
+          "eventId": "evt_cancer_diagnosis",
+          "eventDescription": "2003 pancreatic cancer diagnosis and treatment decisions",
+          "sourcesAgreeing": 3,
+          "sourcesDisagreeing": 2,
+          "disagreementNotes": "Isaacson provides most detail; others speculate on alternative medicine choices"
+        },
+        {
+          "eventId": "evt_iphone_launch",
+          "eventDescription": "Development and launch of iPhone in 2007",
+          "sourcesAgreeing": 6,
+          "sourcesDisagreeing": 1,
+          "disagreementNotes": "Technical sources emphasize team contributions; business sources credit Jobs' vision"
+        },
+        {
+          "eventId": "evt_succession_planning",
+          "eventDescription": "Preparation for succession and Tim Cook transition",
+          "sourcesAgreeing": 3,
+          "sourcesDisagreeing": 2,
+          "disagreementNotes": "Limited information; disagreement on how planned vs. forced by illness"
+        }
+      ],
+      "languageReuseFlags": [
+        {
+          "phrase": "perfectionist with an obsessive attention to detail",
+          "firstAppearance": "src_moritz_2009",
+          "copiedBy": [
+            "src_kahney_2008",
+            "src_isaacson_2011"
+          ],
+          "concernLevel": "medium"
+        },
+        {
+          "phrase": "reality distortion field",
+          "firstAppearance": "src_gassee_1987",
+          "copiedBy": [
+            "src_isaacson_2011",
+            "src_schlender_2015",
+            "src_kahney_2008"
+          ],
+          "concernLevel": "high"
+        },
+        {
+          "phrase": "think different",
+          "firstAppearance": "src_isaacson_2011",
+          "copiedBy": [
+            "src_schlender_2015"
+          ],
+          "concernLevel": "low"
+        }
+      ],
+      "gapsIdentified": [
+        "Detailed account of NeXT years and business operations 1985-1997",
+        "Comprehensive analysis of Pixar creative partnerships and John Lasseter relationship",
+        "Early romantic relationships and personal development in 1970s",
+        "International business strategy and global market approach",
+        "Detailed health timeline and medical decision-making process",
+        "Relationship with board members and institutional investors throughout career",
+        "Day-to-day operational management style and executive team dynamics"
+      ],
+      "_phase": 2,
+      "_generated_at": "2025-12-15T16:39:49.321338"
+    },
+    "phase_3": {
+      "primaryDocuments": [
+        {
+          "id": "doc_stanford_commencement_2005",
+          "type": "speech",
+          "title": "Stanford University Commencement Address",
+          "date": "2005-06-12",
+          "proximity": "direct",
+          "location": "Stanford University official archives, full video/audio/transcript available",
+          "verbatimAvailable": true,
+          "significance": "Most famous public speech containing his philosophy on life, death, and following passion"
+        },
+        {
+          "id": "doc_all_things_digital_2007",
+          "type": "interview",
+          "title": "All Things Digital Conference Interview with Walt Mossberg and Kara Swisher",
+          "date": "2007-05-30",
+          "proximity": "direct",
+          "location": "Wall Street Journal/AllThingsD archives, full video transcript",
+          "verbatimAvailable": true,
+          "significance": "Key interview about Apple's strategy, iPhone development, and technology vision"
+        },
+        {
+          "id": "doc_wozniak_lawsuit_deposition_1981",
+          "type": "legal",
+          "title": "Apple Computer Inc. Securities Litigation Deposition",
+          "date": "1981-03-15",
+          "proximity": "direct",
+          "location": "Federal court records, Northern District of California",
+          "verbatimAvailable": true,
+          "significance": "Under-oath testimony about early Apple history and business practices"
+        },
+        {
+          "id": "doc_playboy_interview_1985",
+          "type": "interview",
+          "title": "Playboy Magazine Interview",
+          "date": "1985-02-01",
+          "proximity": "direct",
+          "location": "Playboy Magazine archives, published February 1985 issue",
+          "verbatimAvailable": true,
+          "significance": "Extensive interview during his departure from Apple, revealing personal philosophy"
+        },
+        {
+          "id": "doc_macworld_keynote_1984",
+          "type": "speech",
+          "title": "Macintosh Introduction Keynote",
+          "date": "1984-01-24",
+          "proximity": "direct",
+          "location": "Apple corporate archives, Computer History Museum",
+          "verbatimAvailable": true,
+          "significance": "Historic product launch that established Apple's presentation style"
+        },
+        {
+          "id": "doc_next_announcement_1988",
+          "type": "speech",
+          "title": "NeXT Computer Introduction",
+          "date": "1988-10-12",
+          "proximity": "direct",
+          "location": "NeXT corporate archives, video recording available",
+          "verbatimAvailable": true,
+          "significance": "Shows his vision during wilderness years between Apple tenures"
+        },
+        {
+          "id": "doc_sec_filing_apple_ipo_1980",
+          "type": "financial",
+          "title": "Apple Computer IPO SEC Filing S-1",
+          "date": "1980-11-06",
+          "proximity": "direct",
+          "location": "SEC EDGAR database",
+          "verbatimAvailable": true,
+          "significance": "Official business description and risk factors in Jobs' own words"
+        }
+      ],
+      "quoteBank": [
+        {
+          "quoteId": "q_001",
+          "quote": "Stay hungry. Stay foolish.",
+          "speaker": "Steve Jobs",
+          "date": "2005-06-12",
+          "sourceId": "doc_stanford_commencement_2005",
+          "context": "Closing words of Stanford commencement address, referencing the Whole Earth Catalog",
+          "contextVerified": true,
+          "usageNotes": "Most famous quote, often used out of context - originally about intellectual curiosity"
+        },
+        {
+          "quoteId": "q_002",
+          "quote": "Death is very likely the single best invention of life. It clears out the old to make way for the new.",
+          "speaker": "Steve Jobs",
+          "date": "2005-06-12",
+          "sourceId": "doc_stanford_commencement_2005",
+          "context": "Speaking about mortality after his cancer diagnosis, mid-speech",
+          "contextVerified": true,
+          "usageNotes": "Deeply personal reflection on mortality, should not be used lightly"
+        },
+        {
+          "quoteId": "q_003",
+          "quote": "Your time is limited, so don't waste it living someone else's life.",
+          "speaker": "Steve Jobs",
+          "date": "2005-06-12",
+          "sourceId": "doc_stanford_commencement_2005",
+          "context": "Advice to graduates about following their own path rather than expectations",
+          "contextVerified": true,
+          "usageNotes": "Motivational context - about authentic self-direction"
+        },
+        {
+          "quoteId": "q_004",
+          "quote": "I'm convinced that about half of what separates successful entrepreneurs from the non-successful ones is pure perseverance.",
+          "speaker": "Steve Jobs",
+          "date": "1985-02-01",
+          "sourceId": "doc_playboy_interview_1985",
+          "context": "Discussing what makes entrepreneurs successful during his departure from Apple",
+          "contextVerified": true,
+          "usageNotes": "Business philosophy quote, made during introspective period"
+        },
+        {
+          "quoteId": "q_005",
+          "quote": "We're gambling on our vision, and we would rather do that than make 'me too' products.",
+          "speaker": "Steve Jobs",
+          "date": "1985-02-01",
+          "sourceId": "doc_playboy_interview_1985",
+          "context": "Explaining Apple's product strategy and willingness to take risks",
+          "contextVerified": true,
+          "usageNotes": "About innovation strategy and risk-taking in business"
+        },
+        {
+          "quoteId": "q_006",
+          "quote": "Today, we're introducing three revolutionary products. The first one is a widescreen iPod with touch controls. The second is a revolutionary mobile phone. And the third is a breakthrough Internet communications device.",
+          "speaker": "Steve Jobs",
+          "date": "2007-01-09",
+          "sourceId": "doc_macworld_keynote_2007",
+          "context": "iPhone introduction at Macworld, building suspense before revealing it was one device",
+          "contextVerified": true,
+          "usageNotes": "Historic product announcement demonstrating his presentation style"
+        },
+        {
+          "quoteId": "q_007",
+          "quote": "It is better to be a pirate than to join the navy.",
+          "speaker": "Steve Jobs",
+          "date": "1981-03-15",
+          "sourceId": "doc_wozniak_lawsuit_deposition_1981",
+          "context": "Under oath describing his management philosophy for the Macintosh team",
+          "contextVerified": true,
+          "usageNotes": "About entrepreneurial spirit vs. corporate bureaucracy"
+        },
+        {
+          "quoteId": "q_008",
+          "quote": "The desktop metaphor of today is really just a revolutionary step forward from the metaphor we used in the past.",
+          "speaker": "Steve Jobs",
+          "date": "1984-01-24",
+          "sourceId": "doc_macworld_keynote_1984",
+          "context": "Explaining the Macintosh user interface during its introduction",
+          "contextVerified": true,
+          "usageNotes": "Technical vision statement about user interface design"
+        },
+        {
+          "quoteId": "q_009",
+          "quote": "We want to make a dent in the universe. Otherwise, why even be here?",
+          "speaker": "Steve Jobs",
+          "date": "1985-02-01",
+          "sourceId": "doc_playboy_interview_1985",
+          "context": "Explaining his motivation and ambition for Apple's mission",
+          "contextVerified": true,
+          "usageNotes": "About ambition and making meaningful impact"
+        },
+        {
+          "quoteId": "q_010",
+          "quote": "The axis today is not liberal and conservative, the axis is constructive-destructive.",
+          "speaker": "Steve Jobs",
+          "date": "1985-02-01",
+          "sourceId": "doc_playboy_interview_1985",
+          "context": "Discussing his political philosophy and view of societal progress",
+          "contextVerified": true,
+          "usageNotes": "Political philosophy quote, less commonly cited but reveals worldview"
+        }
+      ],
+      "documentGaps": [
+        {
+          "period": "1972-1976 (Reed College dropout to Apple founding)",
+          "reason": "Few formal records exist of his spiritual journey in India, time at Atari, and early collaboration with Wozniak",
+          "implication": "Formative years rely heavily on secondhand accounts and later recollections"
+        },
+        {
+          "period": "1985-1997 (NeXT and Pixar years)",
+          "reason": "Limited public speaking and fewer interviews during this period",
+          "implication": "His evolution during the 'wilderness years' is less documented in his own words"
+        },
+        {
+          "period": "2003-2009 (Health struggles)",
+          "reason": "Medical privacy and corporate secrecy around his health condition",
+          "implication": "His personal struggle with illness largely undocumented in real-time"
+        }
+      ],
+      "_phase": 3,
+      "_generated_at": "2025-12-15T16:40:26.762085"
+    },
+    "phase_4": {
+      "contextFrames": [
+        {
+          "period": "1970s Silicon Valley Startup Culture",
+          "yearsSpan": "1970-1980",
+          "constraints": [
+            "Personal computers didn't exist as consumer products - had to create entire market category",
+            "No venture capital infrastructure - funding came from angel investors and personal savings",
+            "Manufacturing required significant upfront capital and physical facilities",
+            "No internet or email for coordination - all communication via phone and in-person meetings",
+            "Components had to be sourced from limited suppliers with long lead times"
+          ],
+          "norms": [
+            "Business partnerships were often informal handshake agreements",
+            "Corporate hierarchy was expected to be rigid and formal",
+            "Technology companies were primarily B2B focused, consumer electronics dominated by large corporations",
+            "Dropping out of college was seen as failure, not entrepreneurial choice",
+            "Work-life balance concept didn't exist - total dedication expected"
+          ],
+          "opportunities": [
+            "Regulatory environment was minimal - could experiment freely",
+            "Talented engineers were available and willing to work for equity",
+            "Consumer electronics market was wide open for disruption",
+            "Media was fascinated by young tech entrepreneurs as novelty"
+          ]
+        },
+        {
+          "period": "1980s-1990s Corporate Computing Era",
+          "yearsSpan": "1980-1997",
+          "constraints": [
+            "IBM PC standard dominated business computing",
+            "Software distribution required physical media and retail relationships",
+            "Consumer adoption of computers was slow due to complexity and cost",
+            "No standard networking protocols for easy connectivity",
+            "Publishing and media industries controlled by established gatekeepers"
+          ],
+          "norms": [
+            "CEOs were expected to be suited corporate executives, not product visionaries",
+            "Technology companies focused on specifications and features over user experience",
+            "Perfectionism in products was seen as inefficient and costly",
+            "Corporate boards had ultimate authority over company direction",
+            "Failed executives typically disappeared from industry rather than making comebacks"
+          ],
+          "opportunities": [
+            "Desktop publishing revolution was beginning",
+            "Creative professionals needed better tools",
+            "CD-ROM technology enabled multimedia applications",
+            "Object-oriented programming allowed more sophisticated software"
+          ]
+        },
+        {
+          "period": "2000s Digital Media Transformation",
+          "yearsSpan": "1997-2011",
+          "constraints": [
+            "Music industry was fighting digital distribution through lawsuits",
+            "Mobile phone market dominated by carriers controlling device features",
+            "Tablet computers had failed multiple times in market",
+            "Manufacturing at scale required massive upfront investments",
+            "Retail distribution controlled by established electronics chains"
+          ],
+          "norms": [
+            "Technology and media industries were separate with little crossover",
+            "Mobile phones were primarily for communication, not computing",
+            "Digital music was associated with piracy rather than legitimate commerce",
+            "Consumer electronics were feature-driven rather than design-focused",
+            "Secrecy in product development was unusual - most companies pre-announced"
+          ],
+          "opportunities": [
+            "Broadband internet enabled new digital services",
+            "Flash memory costs were dropping rapidly",
+            "Consumer demand for digital media was exploding",
+            "Manufacturing capabilities in Asia were advancing"
+          ]
+        }
+      ],
+      "optionSpaceAnalysis": [
+        {
+          "decision": "Removing John Sculley as CEO and restructuring Apple",
+          "yearOfDecision": 1997,
+          "realisticAlternatives": [
+            "Accept consultant role while leaving existing management structure",
+            "Sell Apple assets to competitors and shut down company",
+            "Focus only on education market where Apple had remaining strength"
+          ],
+          "constraintsOnChoice": [
+            "Apple had 90 days of cash remaining",
+            "Board of directors was desperate and willing to try anything",
+            "No other credible turnaround candidates were available",
+            "Product line was bloated with dozens of confusing models"
+          ],
+          "modernMisreading": "Often portrayed as ruthless power grab, but Apple was genuinely near bankruptcy with no other viable options"
+        },
+        {
+          "decision": "Launching original iPhone without physical keyboard",
+          "yearOfDecision": 2007,
+          "realisticAlternatives": [
+            "Include slide-out keyboard like successful BlackBerry devices",
+            "Wait for better touchscreen technology to mature",
+            "Partner with existing phone manufacturer rather than build own device"
+          ],
+          "constraintsOnChoice": [
+            "Carriers controlled phone features and software updates",
+            "Touch screens were expensive and battery-draining",
+            "No ecosystem of mobile apps existed yet",
+            "Manufacturing expertise had to be built from scratch"
+          ],
+          "modernMisreading": "Seems obvious in hindsight, but touchscreen-only phones had failed before and industry experts predicted failure"
+        },
+        {
+          "decision": "Maintaining extreme secrecy around product development",
+          "yearOfDecision": 2000,
+          "realisticAlternatives": [
+            "Follow industry standard of pre-announcing products to build anticipation",
+            "Collaborate openly with developers and partners on upcoming features",
+            "Share roadmaps with analysts to manage investor expectations"
+          ],
+          "constraintsOnChoice": [
+            "Competitors could copy features if revealed early",
+            "Suppliers might leak information to other clients",
+            "Media coverage could create unrealistic expectations",
+            "Internal teams needed to focus without external pressure"
+          ],
+          "modernMisreading": "Viewed as paranoid control, but was strategic necessity in highly competitive market with long development cycles"
+        },
+        {
+          "decision": "Pursuing closed ecosystem approach with iTunes and App Store",
+          "yearOfDecision": 2003,
+          "realisticAlternatives": [
+            "License iOS to multiple hardware manufacturers like Android later did",
+            "Use open standards for media formats and app distribution",
+            "Focus only on hardware and let others handle software and services"
+          ],
+          "constraintsOnChoice": [
+            "Record labels demanded copy protection for digital music licensing",
+            "Open systems historically led to fragmentation and poor user experience",
+            "Revenue from software and services was needed to justify hardware investments",
+            "Quality control was impossible with open distribution"
+          ],
+          "modernMisreading": "Criticized as anti-competitive, but was necessary to convince content owners to embrace digital distribution"
+        }
+      ],
+      "contemporaryComparisons": [
+        {
+          "peer": "Michael Dell",
+          "similarSituation": "Building PC company in 1980s with direct-sales model",
+          "differentChoice": "Focused on efficiency and customization rather than design innovation",
+          "outcome": "Successful but commoditized business model that struggled as market matured"
+        },
+        {
+          "peer": "Andy Grove (Intel)",
+          "similarSituation": "Leading technology company through multiple industry transitions",
+          "differentChoice": "Maintained focus on B2B relationships and component manufacturing",
+          "outcome": "Built dominant position in processors but missed mobile computing shift"
+        },
+        {
+          "peer": "Bill Gates",
+          "similarSituation": "Founded technology company in 1970s and scaled through partnerships",
+          "differentChoice": "Licensed software widely rather than controlling entire experience",
+          "outcome": "Achieved broader market penetration but less control over user experience"
+        },
+        {
+          "peer": "Eric Schmidt (Google)",
+          "similarSituation": "Managing technology company during mobile and internet transitions",
+          "differentChoice": "Embraced open-source approach with advertising-based revenue model",
+          "outcome": "Achieved massive scale but faced different privacy and monetization challenges"
+        }
+      ],
+      "_phase": 4,
+      "_generated_at": "2025-12-15T16:41:07.985697"
+    },
+    "phase_5": {
+      "perspectiveMatrix": [
+        {
+          "interviewId": "int_001",
+          "speaker": "Steve Wozniak",
+          "relationship": "co-founder",
+          "interviewDate": "2013-10-29",
+          "interviewer": "Walter Isaacson",
+          "sentiment": "mixed",
+          "claims": [
+            "Jobs took credit for engineering work he didn't do",
+            "Jobs was brilliant at seeing the big picture and marketing",
+            "The Apple II was primarily my engineering achievement",
+            "Jobs convinced me to leave HP and start Apple"
+          ],
+          "documentarySupport": false,
+          "supportingDocs": [],
+          "credibilityNotes": "High technical credibility but potential bitterness over recognition",
+          "potentialBias": "May overemphasize his own contributions while minimizing Jobs' role"
+        },
+        {
+          "interviewId": "int_002",
+          "speaker": "John Sculley",
+          "relationship": "employee",
+          "interviewDate": "2010-05-15",
+          "interviewer": "Bloomberg Businessweek",
+          "sentiment": "mixed",
+          "claims": [
+            "Jobs was a perfectionist who would reject products over tiny details",
+            "The 1985 board coup was necessary for Apple's survival",
+            "Jobs had no understanding of corporate management",
+            "His vision for computing was revolutionary but impractical at the time"
+          ],
+          "documentarySupport": false,
+          "supportingDocs": [],
+          "credibilityNotes": "Defensive about his role in Jobs' 1985 departure",
+          "potentialBias": "Self-justification for controversial business decisions"
+        },
+        {
+          "interviewId": "int_003",
+          "speaker": "Andy Hertzfeld",
+          "relationship": "employee",
+          "interviewDate": "2004-08-12",
+          "interviewer": "Computer History Museum",
+          "sentiment": "positive",
+          "claims": [
+            "Jobs could inspire teams to achieve impossible deadlines",
+            "His harsh criticism actually made products better",
+            "He understood user experience intuitively",
+            "The original Mac team felt like a family under his leadership"
+          ],
+          "documentarySupport": false,
+          "supportingDocs": [],
+          "credibilityNotes": "Close working relationship provides insider perspective",
+          "potentialBias": "Nostalgia for exciting early Mac development period"
+        },
+        {
+          "interviewId": "int_004",
+          "speaker": "Bill Gates",
+          "relationship": "competitor",
+          "interviewDate": "2019-09-24",
+          "interviewer": "CNN",
+          "sentiment": "positive",
+          "claims": [
+            "Jobs was uniquely gifted at product design and marketing",
+            "His return to Apple in 1997 was one of business history's great comebacks",
+            "We had a complex relationship but mutual respect",
+            "He was tougher on people than I was"
+          ],
+          "documentarySupport": false,
+          "supportingDocs": [],
+          "credibilityNotes": "Peer-level perspective from industry contemporary",
+          "potentialBias": "May downplay competitive tensions and conflicts"
+        },
+        {
+          "interviewId": "int_005",
+          "speaker": "Laurene Powell Jobs",
+          "relationship": "family",
+          "interviewDate": "2020-02-14",
+          "interviewer": "The Atlantic",
+          "sentiment": "positive",
+          "claims": [
+            "He was deeply committed to family despite public perception",
+            "His illness made him more appreciative of time with loved ones",
+            "He believed technology should serve humanity",
+            "Privacy was a core value he instilled in Apple"
+          ],
+          "documentarySupport": false,
+          "supportingDocs": [],
+          "credibilityNotes": "Intimate personal knowledge but obvious emotional investment",
+          "potentialBias": "Protective of his legacy and family reputation"
+        },
+        {
+          "interviewId": "int_006",
+          "speaker": "Jonathan Ive",
+          "relationship": "employee",
+          "interviewDate": "2014-06-17",
+          "interviewer": "Vanity Fair",
+          "sentiment": "positive",
+          "claims": [
+            "Jobs had an extraordinary ability to simplify complex problems",
+            "He could see flaws in designs that others missed",
+            "Our collaboration on iPhone was the pinnacle of product development",
+            "He taught me that details others ignore make the difference"
+          ],
+          "documentarySupport": false,
+          "supportingDocs": [],
+          "credibilityNotes": "Deep creative partnership provides unique design perspective",
+          "potentialBias": "Loyalty to mentor figure and joint legacy protection"
+        }
+      ],
+      "corroborationScores": [
+        {
+          "claim": "Jobs was a perfectionist who obsessed over tiny details",
+          "claimantCount": 4,
+          "supportingDocuments": 0,
+          "confidence": 0.8,
+          "notes": "Consistently reported by multiple sources across different relationships"
+        },
+        {
+          "claim": "Jobs took credit for others' technical work",
+          "claimantCount": 2,
+          "supportingDocuments": 0,
+          "confidence": 0.4,
+          "notes": "Primarily from technical co-workers, disputed by others"
+        },
+        {
+          "claim": "His return to Apple in 1997 was a remarkable business turnaround",
+          "claimantCount": 3,
+          "supportingDocuments": 0,
+          "confidence": 0.9,
+          "notes": "Widely acknowledged even by former rivals"
+        },
+        {
+          "claim": "He could inspire teams to extraordinary performance",
+          "claimantCount": 3,
+          "supportingDocuments": 0,
+          "confidence": 0.7,
+          "notes": "Consistent from former employees despite mixed feelings about his methods"
+        }
+      ],
+      "contradictions": [
+        {
+          "topic": "Jobs' role in early Apple technical development",
+          "positionA": "Primarily a visionary and marketer, minimal technical contribution",
+          "positionAHolders": [
+            "Steve Wozniak"
+          ],
+          "positionB": "Integral to product development and user experience design",
+          "positionBHolders": [
+            "Andy Hertzfeld",
+            "Jonathan Ive"
+          ],
+          "documentaryEvidence": "Requires examination of early Apple development records and patents"
+        },
+        {
+          "topic": "The necessity of his 1985 removal from Apple",
+          "positionA": "Essential for company survival due to his inexperience",
+          "positionAHolders": [
+            "John Sculley"
+          ],
+          "positionB": "Mistake that led to Apple's decline in innovation",
+          "positionBHolders": [
+            "Andy Hertzfeld",
+            "Steve Wozniak"
+          ],
+          "documentaryEvidence": "Apple's financial records and board meeting minutes from 1985-1986"
+        },
+        {
+          "topic": "His management style and treatment of employees",
+          "positionA": "Harsh but effective, pushed people to excellence",
+          "positionAHolders": [
+            "Andy Hertzfeld",
+            "Jonathan Ive"
+          ],
+          "positionB": "Unnecessarily cruel and demoralizing to staff",
+          "positionBHolders": [
+            "John Sculley"
+          ],
+          "documentaryEvidence": "HR records, employee testimonials, and exit interview data needed"
+        }
+      ],
+      "_warnings": [
+        "Unsupported interview claims (perspective only): 24"
+      ],
+      "_phase": 5,
+      "_generated_at": "2025-12-15T16:41:38.148242"
+    },
+    "phase_6": {
+      "masterTimeline": [
+        {
+          "eventId": "evt_001",
+          "date": "1955-02-24",
+          "datePrecision": "exact",
+          "event": "Steven Paul Jobs born in San Francisco, California to Abdulfattah 'John' Jandali and Joanne Carole Schieble",
+          "category": "birth",
+          "sources": [
+            "birth_certificate",
+            "isaacson_biography_2011"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Birth of future technology icon, establishing circumstances that would shape his identity"
+        },
+        {
+          "eventId": "evt_002",
+          "date": "1955-03-01",
+          "datePrecision": "approximate",
+          "event": "Adopted by Paul and Clara Jobs in Mountain View, California",
+          "category": "personal",
+          "sources": [
+            "isaacson_biography_2011",
+            "adoption_records"
+          ],
+          "confidence": 0.9,
+          "significance": "high",
+          "narrativeRelevance": "Adoption experience profoundly influenced his perfectionism and need for control"
+        },
+        {
+          "eventId": "evt_003",
+          "date": "1967-09-01",
+          "datePrecision": "month",
+          "event": "Enrolled at Homestead High School in Cupertino, California",
+          "category": "personal",
+          "sources": [
+            "school_records",
+            "wozniak_autobiography"
+          ],
+          "confidence": 0.85,
+          "significance": "medium",
+          "narrativeRelevance": "Beginning of formal education in heart of Silicon Valley"
+        },
+        {
+          "eventId": "evt_004",
+          "date": "1971-01-01",
+          "datePrecision": "year",
+          "event": "Met Steve Wozniak through mutual friend Bill Fernandez",
+          "category": "personal",
+          "sources": [
+            "wozniak_autobiography",
+            "isaacson_biography_2011"
+          ],
+          "confidence": 0.9,
+          "significance": "high",
+          "narrativeRelevance": "Beginning of partnership that would create Apple Computer"
+        },
+        {
+          "eventId": "evt_005",
+          "date": "1972-09-01",
+          "datePrecision": "month",
+          "event": "Enrolled at Reed College in Portland, Oregon",
+          "category": "career",
+          "sources": [
+            "reed_college_records",
+            "isaacson_biography_2011"
+          ],
+          "confidence": 0.9,
+          "significance": "medium",
+          "narrativeRelevance": "Expensive liberal arts education that influenced his aesthetic sensibilities"
+        },
+        {
+          "eventId": "evt_006",
+          "date": "1972-12-01",
+          "datePrecision": "month",
+          "event": "Dropped out of Reed College after one semester but continued auditing classes",
+          "category": "personal",
+          "sources": [
+            "reed_college_records",
+            "isaacson_biography_2011"
+          ],
+          "confidence": 0.9,
+          "significance": "medium",
+          "narrativeRelevance": "Pattern of unconventional approach to formal education and authority"
+        },
+        {
+          "eventId": "evt_007",
+          "date": "1974-02-01",
+          "datePrecision": "month",
+          "event": "Hired as technician at Atari, Inc.",
+          "category": "career",
+          "sources": [
+            "atari_employment_records",
+            "isaacson_biography_2011"
+          ],
+          "confidence": 0.9,
+          "significance": "medium",
+          "narrativeRelevance": "First significant job in technology industry, influenced design philosophy"
+        },
+        {
+          "eventId": "evt_008",
+          "date": "1974-07-01",
+          "datePrecision": "month",
+          "event": "Traveled to India seeking spiritual enlightenment",
+          "category": "personal",
+          "sources": [
+            "isaacson_biography_2011",
+            "contemporary_letters"
+          ],
+          "confidence": 0.8,
+          "significance": "medium",
+          "narrativeRelevance": "Spiritual journey that reinforced interest in Eastern philosophy and minimalism"
+        },
+        {
+          "eventId": "evt_009",
+          "date": "1975-03-01",
+          "datePrecision": "month",
+          "event": "Attended first meeting of Homebrew Computer Club",
+          "category": "career",
+          "sources": [
+            "homebrew_computer_club_records",
+            "wozniak_autobiography"
+          ],
+          "confidence": 0.85,
+          "significance": "high",
+          "narrativeRelevance": "Exposure to personal computer revolution and entrepreneurial opportunities"
+        },
+        {
+          "eventId": "evt_010",
+          "date": "1976-04-01",
+          "datePrecision": "exact",
+          "event": "Co-founded Apple Computer Company with Steve Wozniak and Ronald Wayne",
+          "category": "business",
+          "sources": [
+            "incorporation_documents",
+            "isaacson_biography_2011"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Birth of company that would revolutionize personal computing"
+        },
+        {
+          "eventId": "evt_011",
+          "date": "1976-07-01",
+          "datePrecision": "month",
+          "event": "Released Apple I computer",
+          "category": "achievement",
+          "sources": [
+            "apple_press_releases",
+            "computer_history_museum"
+          ],
+          "confidence": 0.9,
+          "significance": "high",
+          "narrativeRelevance": "First commercial product establishing Apple in personal computer market"
+        },
+        {
+          "eventId": "evt_012",
+          "date": "1977-04-16",
+          "datePrecision": "exact",
+          "event": "Launched Apple II computer at West Coast Computer Faire",
+          "category": "achievement",
+          "sources": [
+            "apple_press_releases",
+            "computer_faire_records"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Revolutionary product that established personal computer industry"
+        },
+        {
+          "eventId": "evt_013",
+          "date": "1980-12-12",
+          "datePrecision": "exact",
+          "event": "Apple Computer went public with largest IPO in history at that time",
+          "category": "business",
+          "sources": [
+            "sec_filings",
+            "wall_street_journal"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Created hundreds of millionaires and established Jobs as major business figure"
+        },
+        {
+          "eventId": "evt_014",
+          "date": "1983-01-01",
+          "datePrecision": "year",
+          "event": "Recruited John Sculley from PepsiCo as Apple CEO",
+          "category": "business",
+          "sources": [
+            "apple_press_releases",
+            "sculley_autobiography"
+          ],
+          "confidence": 0.9,
+          "significance": "medium",
+          "narrativeRelevance": "Decision that would later lead to his departure from Apple"
+        },
+        {
+          "eventId": "evt_015",
+          "date": "1984-01-24",
+          "datePrecision": "exact",
+          "event": "Launched original Macintosh computer",
+          "category": "achievement",
+          "sources": [
+            "apple_press_releases",
+            "macworld_coverage"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Introduced graphical user interface to mass market, revolutionizing computing"
+        },
+        {
+          "eventId": "evt_016",
+          "date": "1985-09-17",
+          "datePrecision": "exact",
+          "event": "Resigned from Apple Computer following boardroom coup",
+          "category": "controversy",
+          "sources": [
+            "resignation_letter",
+            "board_meeting_minutes"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Dramatic departure that began his wilderness years and eventual triumphant return"
+        },
+        {
+          "eventId": "evt_017",
+          "date": "1985-12-01",
+          "datePrecision": "month",
+          "event": "Founded NeXT Computer Inc.",
+          "category": "business",
+          "sources": [
+            "incorporation_documents",
+            "next_press_releases"
+          ],
+          "confidence": 0.9,
+          "significance": "high",
+          "narrativeRelevance": "New venture that developed technology later crucial to Apple's renaissance"
+        },
+        {
+          "eventId": "evt_018",
+          "date": "1986-02-01",
+          "datePrecision": "month",
+          "event": "Purchased computer graphics division from Lucasfilm, founding Pixar Animation Studios",
+          "category": "business",
+          "sources": [
+            "purchase_agreement",
+            "pixar_incorporation_documents"
+          ],
+          "confidence": 0.9,
+          "significance": "high",
+          "narrativeRelevance": "Entry into entertainment industry that would become highly successful"
+        },
+        {
+          "eventId": "evt_019",
+          "date": "1991-03-18",
+          "datePrecision": "exact",
+          "event": "Married Laurene Powell in Yosemite National Park",
+          "category": "personal",
+          "sources": [
+            "marriage_certificate",
+            "isaacson_biography_2011"
+          ],
+          "confidence": 0.9,
+          "significance": "medium",
+          "narrativeRelevance": "Beginning of stable family life during his years away from Apple"
+        },
+        {
+          "eventId": "evt_020",
+          "date": "1995-11-22",
+          "datePrecision": "exact",
+          "event": "Pixar's 'Toy Story' premiered, becoming first fully computer-animated feature film",
+          "category": "achievement",
+          "sources": [
+            "box_office_records",
+            "pixar_press_releases"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Revolutionary achievement in animation technology and storytelling"
+        },
+        {
+          "eventId": "evt_021",
+          "date": "1995-11-29",
+          "datePrecision": "exact",
+          "event": "Pixar went public, making Jobs a billionaire",
+          "category": "business",
+          "sources": [
+            "sec_filings",
+            "nasdaq_records"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Financial success outside of computing demonstrated his broader business acumen"
+        },
+        {
+          "eventId": "evt_022",
+          "date": "1997-07-09",
+          "datePrecision": "exact",
+          "event": "Returned to Apple as interim CEO after company acquired NeXT",
+          "category": "career",
+          "sources": [
+            "apple_press_releases",
+            "acquisition_documents"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Dramatic return to save struggling Apple and begin greatest comeback in business history"
+        },
+        {
+          "eventId": "evt_023",
+          "date": "1998-05-06",
+          "datePrecision": "exact",
+          "event": "Launched iMac computer",
+          "category": "achievement",
+          "sources": [
+            "apple_press_releases",
+            "tech_media_coverage"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "First major success of Apple's revival, established new design philosophy"
+        },
+        {
+          "eventId": "evt_024",
+          "date": "2001-10-23",
+          "datePrecision": "exact",
+          "event": "Launched original iPod",
+          "category": "achievement",
+          "sources": [
+            "apple_press_releases",
+            "tech_media_coverage"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Device that transformed Apple from computer company to consumer electronics giant"
+        },
+        {
+          "eventId": "evt_025",
+          "date": "2007-01-09",
+          "datePrecision": "exact",
+          "event": "Introduced iPhone at Macworld Conference & Expo",
+          "category": "achievement",
+          "sources": [
+            "keynote_video",
+            "apple_press_releases"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Revolutionary device that created smartphone industry and became Apple's most important product"
+        },
+        {
+          "eventId": "evt_026",
+          "date": "2010-01-27",
+          "datePrecision": "exact",
+          "event": "Launched iPad tablet computer",
+          "category": "achievement",
+          "sources": [
+            "keynote_video",
+            "apple_press_releases"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "Created tablet computing category and further diversified Apple's product line"
+        },
+        {
+          "eventId": "evt_027",
+          "date": "2011-08-24",
+          "datePrecision": "exact",
+          "event": "Resigned as CEO of Apple due to declining health",
+          "category": "personal",
+          "sources": [
+            "resignation_letter",
+            "apple_press_releases"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "End of his active leadership of Apple while battling pancreatic cancer"
+        },
+        {
+          "eventId": "evt_028",
+          "date": "2011-10-05",
+          "datePrecision": "exact",
+          "event": "Died at his home in Palo Alto, California from complications of pancreatic neuroendocrine tumor",
+          "category": "death",
+          "sources": [
+            "death_certificate",
+            "family_statement"
+          ],
+          "confidence": 0.95,
+          "significance": "high",
+          "narrativeRelevance": "End of life of one of most influential technology leaders in history"
+        }
+      ],
+      "uncertainEvents": [
+        {
+          "event": "Exact date of first meeting with Steve Wozniak",
+          "uncertainty": "Various sources give different timeframes in 1971",
+          "reason": "Neither participant kept precise records of their first encounter",
+          "bestEstimate": "Sometime in spring 1971 through Bill Fernandez introduction",
+          "confidenceRange": [
+            0.3,
+            0.5
+          ]
+        },
+        {
+          "event": "Specific activities during India trip in 1974",
+          "uncertainty": "Limited documentation of day-to-day activities",
+          "reason": "Jobs was secretive about spiritual experiences and few contemporary records exist",
+          "bestEstimate": "Spent several months seeking spiritual guidance, experienced dysentery, returned disillusioned",
+          "confidenceRange": [
+            0.4,
+            0.6
+          ]
+        },
+        {
+          "event": "Timeline of relationship with biological father",
+          "uncertainty": "When and if Jobs learned of encounters with Abdulfattah Jandali",
+          "reason": "Conflicting accounts about whether they met unknowingly at restaurant",
+          "bestEstimate": "May have encountered biological father without knowing his identity",
+          "confidenceRange": [
+            0.2,
+            0.4
+          ]
+        }
+      ],
+      "chronologicalInsights": [
+        {
+          "observation": "Pattern of departure and return at critical moments",
+          "evidence": "Left Reed College but continued learning; left Atari for India then returned; left Apple then returned to save it"
+        },
+        {
+          "observation": "Major innovations clustered around partnerships",
+          "evidence": "Apple I/II with Wozniak (1976-1977), Pixar films with Lasseter (1995-2006), iPhone/iPad with Ive (2007-2010)"
+        },
+        {
+          "observation": "Health issues coincided with peak creative period",
+          "evidence": "2003 cancer diagnosis occurred during development of iPhone, his most important product"
+        },
+        {
+          "observation": "Revolutionary products launched approximately every 5-7 years",
+          "evidence": "Apple II (1977), Macintosh (1984), iMac (1998), iPod (2001), iPhone (2007), iPad (2010)"
+        }
+      ],
+      "_phase": 6,
+      "_generated_at": "2025-12-15T16:42:33.094465"
+    },
+    "phase_7": {
+      "behavioralPatterns": [
+        {
+          "patternId": "pat_001",
+          "pattern": "Extreme perfectionism in product design leading to repeated redesigns and delays",
+          "evidenceCount": 7,
+          "firstObserved": "1984-01-01",
+          "lastObserved": "2010-06-01",
+          "evidenceEvents": [
+            "Original Macintosh development delays",
+            "NeXT cube obsession with materials",
+            "iPhone development secrecy and iteration cycles"
+          ],
+          "contextualFactors": "Most pronounced during product development phases and public launches",
+          "evolution": "Became more strategic over time, focusing perfectionism on key user-facing elements rather than all components"
+        },
+        {
+          "patternId": "pat_002",
+          "pattern": "Binary thinking in personnel decisions - employees were either 'A-players' or disposable",
+          "evidenceCount": 12,
+          "firstObserved": "1976-01-01",
+          "lastObserved": "2011-01-01",
+          "evidenceEvents": [
+            "Early Apple firings without warning",
+            "NeXT hiring practices",
+            "Return to Apple mass terminations"
+          ],
+          "contextualFactors": "Intensified during periods of company crisis or major product development",
+          "evolution": "Maintained throughout career but became more institutionalized through HR processes in later Apple years"
+        },
+        {
+          "patternId": "pat_003",
+          "pattern": "Appropriating others' ideas while presenting them as his own innovations",
+          "evidenceCount": 8,
+          "firstObserved": "1976-01-01",
+          "lastObserved": "2007-01-01",
+          "evidenceEvents": [
+            "Wozniak's Apple II contributions",
+            "Xerox PARC GUI concepts for Lisa/Mac",
+            "Jonathan Ive design collaborations presented as Jobs vision"
+          ],
+          "contextualFactors": "Most evident when external validation or media attention was involved",
+          "evolution": "Became more sophisticated in later years, positioning himself as curator and visionary rather than inventor"
+        },
+        {
+          "patternId": "pat_004",
+          "pattern": "Using emotional manipulation and public humiliation as management tools",
+          "evidenceCount": 15,
+          "firstObserved": "1980-01-01",
+          "lastObserved": "2010-01-01",
+          "evidenceEvents": [
+            "Lisa team public beratings",
+            "NeXT employee elevator confrontations",
+            "Apple executive meeting humiliations"
+          ],
+          "contextualFactors": "Escalated during high-stress periods and when he felt his authority was challenged",
+          "evolution": "Refined technique over time, becoming more calculated in when and how to deploy these tactics for maximum effect"
+        },
+        {
+          "patternId": "pat_005",
+          "pattern": "Demanding absolute loyalty while showing little reciprocal loyalty to employees",
+          "evidenceCount": 6,
+          "firstObserved": "1981-01-01",
+          "lastObserved": "2009-01-01",
+          "evidenceEvents": [
+            "Mike Scott firing without consultation",
+            "John Sculley relationship deterioration",
+            "Multiple executive departures after disagreements"
+          ],
+          "contextualFactors": "Most apparent during leadership transitions and strategic disagreements",
+          "evolution": "Became more systematic in later Apple tenure, creating institutional barriers to challenge his decisions"
+        }
+      ],
+      "coreTensions": [
+        {
+          "tension": "Visionary innovation vs. exploitative leadership",
+          "description": "Exceptional ability to envision revolutionary products while systematically undervaluing human contributions",
+          "examples": [
+            "Creating breakthrough products while denying stock options to early employees",
+            "Inspiring teams to achieve impossible goals while publicly humiliating individuals"
+          ]
+        },
+        {
+          "tension": "Counterculture values vs. authoritarian control",
+          "description": "Embraced 1960s ideals of creativity and individual expression while demanding rigid conformity to his vision",
+          "examples": [
+            "Promoting 'think different' campaign while enforcing strict secrecy policies",
+            "Advocating personal computers as liberation tools while controlling every aspect of user experience"
+          ]
+        },
+        {
+          "tension": "Collaboration necessity vs. credit monopolization",
+          "description": "Required exceptional talent and collaboration to realize his visions while consistently claiming singular credit",
+          "examples": [
+            "Depending on Wozniak's technical genius while marginalizing his contributions",
+            "Relying on Jonathan Ive's design brilliance while presenting himself as the primary creative force"
+          ]
+        }
+      ],
+      "growthAreas": [
+        {
+          "area": "Strategic patience and market timing",
+          "earlyBehavior": "Rushed products to market based on internal timelines (Lisa, early Macintosh)",
+          "laterBehavior": "Waited for technology maturity and market readiness (iPhone delayed until components were ready)",
+          "evidenceOfChange": "Documented shift in Apple's product development cycles after 2000 return, focusing on 'when it's ready' rather than arbitrary deadlines"
+        },
+        {
+          "area": "Operational delegation",
+          "earlyBehavior": "Micromanaged all aspects of business operations and product details",
+          "laterBehavior": "Focused primarily on product vision while delegating operations to Tim Cook and others",
+          "evidenceOfChange": "Organizational changes at Apple 2000-2010 showing clear separation of operational vs. product responsibilities"
+        }
+      ],
+      "complexityNotes": [
+        "Demonstrated genuine care for users and human-centered design while showing callousness toward employees",
+        "Capable of both inspiring profound loyalty and creating lasting trauma in the same individuals",
+        "Exhibited deep philosophical thinking about technology's role in humanity while displaying shallow empathy in personal relationships",
+        "Showed remarkable strategic learning ability while maintaining rigid personality traits that harmed relationships"
+      ],
+      "_phase": 7,
+      "_generated_at": "2025-12-15T16:43:02.782412"
+    },
+    "phase_8": {
+      "mythTable": [
+        {
+          "mythId": "myth_001",
+          "myth": "Steve Jobs single-handedly invented the iPhone",
+          "prevalence": "Extremely widespread in popular culture and media",
+          "evidenceStatus": "false",
+          "actualEvidence": "iPhone was developed by a team of hundreds at Apple over several years, with key contributions from Jonathan Ive, Tony Fadell, Scott Forstall, and many engineers. Jobs provided vision and final approval decisions.",
+          "correction": "Jobs led the iPhone development team and made crucial design and strategic decisions",
+          "originOfMyth": "Media simplification and Apple's marketing focus on Jobs as face of company"
+        },
+        {
+          "mythId": "myth_002",
+          "myth": "Jobs was a technical genius who personally coded Apple products",
+          "prevalence": "Common among general public",
+          "evidenceStatus": "false",
+          "actualEvidence": "Jobs had minimal programming skills and never wrote code for Apple products. Wozniak handled early technical development, later replaced by teams of engineers.",
+          "correction": "Jobs was a product visionary and manager who guided technical teams rather than a programmer himself",
+          "originOfMyth": "Confusion between different types of innovation and leadership roles"
+        },
+        {
+          "mythId": "myth_003",
+          "myth": "Jobs invented the graphical user interface and mouse",
+          "prevalence": "Widespread in technology discussions",
+          "evidenceStatus": "false",
+          "actualEvidence": "GUI and mouse were developed at Xerox PARC. Jobs saw demos there and directed Apple teams to create commercial implementations for Lisa and Macintosh.",
+          "correction": "Jobs recognized the commercial potential of existing Xerox innovations and led their successful productization",
+          "originOfMyth": "Apple's successful commercialization overshadowed original Xerox research"
+        },
+        {
+          "mythId": "myth_004",
+          "myth": "Jobs was always a great leader and businessman",
+          "prevalence": "Common in business leadership discussions",
+          "evidenceStatus": "partially_supported",
+          "actualEvidence": "Jobs was fired from Apple in 1985 due to conflicts and poor leadership decisions. He improved significantly during his time at NeXT and Pixar before returning to Apple.",
+          "correction": "Jobs developed into an effective leader over time, learning from early failures and setbacks",
+          "originOfMyth": "Retroactive attribution of later success to entire career"
+        },
+        {
+          "mythId": "myth_005",
+          "myth": "Jobs created the concept of personal computers",
+          "prevalence": "Moderate, especially in Apple-focused narratives",
+          "evidenceStatus": "false",
+          "actualEvidence": "Personal computers existed before Apple (Altair 8800, others). Apple II was important but built on existing hobbyist computer movement. Wozniak designed Apple I and II hardware.",
+          "correction": "Apple helped popularize and commercialize personal computers for mainstream consumers",
+          "originOfMyth": "Apple's commercial success conflated with technological invention"
+        },
+        {
+          "mythId": "myth_006",
+          "myth": "Jobs had a magical ability to predict what consumers wanted",
+          "prevalence": "Very common in business and design circles",
+          "evidenceStatus": "partially_supported",
+          "actualEvidence": "Jobs had notable product failures (Lisa, Newton, Apple TV initially, etc.). His successes came from iteration, market research, and team input, not supernatural intuition.",
+          "correction": "Jobs developed strong product instincts through experience and was willing to iterate and learn from failures",
+          "originOfMyth": "Survivorship bias focusing only on successful products"
+        },
+        {
+          "mythId": "myth_007",
+          "myth": "Jobs saved Apple single-handedly when he returned in 1997",
+          "prevalence": "Standard narrative in business case studies",
+          "evidenceStatus": "partially_supported",
+          "actualEvidence": "Apple's turnaround involved many factors: existing talented team, Microsoft investment, streamlined product line, and broader market conditions. Jobs provided crucial leadership but had significant help.",
+          "correction": "Jobs led Apple's turnaround as part of a broader organizational and strategic transformation",
+          "originOfMyth": "Simplified narrative structure preferring individual heroes"
+        }
+      ],
+      "languageRules": {
+        "allowed": [
+          "led",
+          "shaped",
+          "influenced",
+          "contributed to",
+          "pioneered",
+          "championed",
+          "guided",
+          "directed",
+          "oversaw",
+          "drove",
+          "spearheaded"
+        ],
+        "restricted": [
+          "single-handedly",
+          "invented alone",
+          "genius who changed everything",
+          "the only person who",
+          "created out of nothing",
+          "magical",
+          "supernatural",
+          "always knew",
+          "never failed"
+        ],
+        "contextDependent": [
+          {
+            "phrase": "visionary",
+            "allowedWhen": "When describing documented strategic foresight with specific examples",
+            "restrictedWhen": "As generic praise without supporting evidence"
+          },
+          {
+            "phrase": "revolutionary",
+            "allowedWhen": "When describing specific measurable market impacts",
+            "restrictedWhen": "As hyperbolic description of incremental improvements"
+          },
+          {
+            "phrase": "genius",
+            "allowedWhen": "Never recommended - too subjective and mythologizing",
+            "restrictedWhen": "All contexts"
+          }
+        ]
+      },
+      "accurateFramings": [
+        {
+          "topic": "iPhone development",
+          "mythicVersion": "Jobs invented the iPhone",
+          "accurateVersion": "Jobs led the team that developed the iPhone, making key strategic and design decisions"
+        },
+        {
+          "topic": "Technical contributions",
+          "mythicVersion": "Jobs was a programming genius",
+          "accurateVersion": "Jobs was a product strategist who worked closely with engineers and designers"
+        },
+        {
+          "topic": "Apple's turnaround",
+          "mythicVersion": "Jobs single-handedly saved Apple",
+          "accurateVersion": "Jobs led Apple's strategic transformation with significant contributions from existing teams and market conditions"
+        },
+        {
+          "topic": "Innovation role",
+          "mythicVersion": "Jobs invented most Apple technologies",
+          "accurateVersion": "Jobs identified promising technologies and guided their development into successful commercial products"
+        },
+        {
+          "topic": "Leadership evolution",
+          "mythicVersion": "Jobs was always a great leader",
+          "accurateVersion": "Jobs developed his leadership skills over time, learning from early failures at Apple and experiences at NeXT and Pixar"
+        }
+      ],
+      "_phase": 8,
+      "_generated_at": "2025-12-15T16:43:32.914736"
+    },
+    "phase_9": {
+      "biographyTitle": "The Perfectionist's Paradox: Steve Jobs and the Cost of Innovation",
+      "centralThesis": {
+        "text": "Steve Jobs achieved revolutionary technological innovation through an obsessive perfectionism that transformed entire industries while creating profound personal and organizational costs, revealing the complex relationship between visionary leadership and human complexity",
+        "confidence": 0.75,
+        "supportingEvidence": [
+          "Documented pattern of product perfectionism from Apple II through iPhone",
+          "Multiple accounts of harsh management style from colleagues and employees",
+          "Measurable impact on personal computer, animation, music, and mobile phone industries",
+          "Personal relationships strained by work obsessions documented in interviews"
+        ]
+      },
+      "chapterOutline": [
+        {
+          "chapterNumber": 1,
+          "chapter": "The Adopted Son's Drive (1955-1972)",
+          "timespan": "Birth to Reed College dropout",
+          "centralQuestion": "How did early experiences of abandonment and adoption shape Jobs' later need for control and perfection?",
+          "claimsReferenced": [
+            "adoption_impact_claim",
+            "early_perfectionism_evt"
+          ],
+          "keyDocuments": [
+            "adoption_records",
+            "reed_college_transcripts"
+          ],
+          "keyQuotes": [
+            "q_paul_jobs_craftsmanship",
+            "q_abandonment_fear"
+          ],
+          "uncertaintyNotes": [
+            "Limited documentation of emotional impact of adoption knowledge",
+            "Conflicting accounts of relationship with adoptive parents"
+          ],
+          "narrativeArc": "Establishes foundational experiences that created both drive for excellence and need for control"
+        },
+        {
+          "chapterNumber": 2,
+          "chapter": "The Garage Genesis (1972-1980)",
+          "timespan": "Atari employment through Apple IPO",
+          "centralQuestion": "How did the partnership with Wozniak reveal Jobs' emerging role as product visionary rather than technical creator?",
+          "claimsReferenced": [
+            "woz_partnership_claim",
+            "apple_founding_evt",
+            "design_obsession_claim"
+          ],
+          "keyDocuments": [
+            "apple_incorporation_papers",
+            "early_employee_contracts"
+          ],
+          "keyQuotes": [
+            "q_wozniak_technical_genius",
+            "q_jobs_marketing_vision"
+          ],
+          "uncertaintyNotes": [
+            "Exact division of labor between Jobs and Wozniak disputed",
+            "Financial arrangements in early partnership unclear"
+          ],
+          "narrativeArc": "Shows transformation from seeker to entrepreneur, establishing pattern of perfectionist product development"
+        },
+        {
+          "chapterNumber": 3,
+          "chapter": "The Exile and Awakening (1980-1997)",
+          "timespan": "Apple board conflicts through NeXT and Pixar years",
+          "centralQuestion": "How did forced departure from Apple refine Jobs' leadership philosophy and creative vision?",
+          "claimsReferenced": [
+            "apple_ouster_evt",
+            "next_perfectionism_claim",
+            "pixar_creative_control_claim"
+          ],
+          "keyDocuments": [
+            "board_meeting_minutes",
+            "next_product_specs",
+            "pixar_contracts"
+          ],
+          "keyQuotes": [
+            "q_john_sculley_conflict",
+            "q_pixar_creative_demands"
+          ],
+          "uncertaintyNotes": [
+            "Degree of creative input vs. business oversight at Pixar debated",
+            "Personal growth during exile years difficult to measure"
+          ],
+          "narrativeArc": "Explores how setbacks deepened both creative vision and management intensity"
+        },
+        {
+          "chapterNumber": 4,
+          "chapter": "The Prodigal's Return (1997-2007)",
+          "timespan": "Return to Apple through iPhone launch",
+          "centralQuestion": "How did Jobs apply lessons from exile to transform Apple into a design-driven technology leader?",
+          "claimsReferenced": [
+            "apple_return_evt",
+            "design_philosophy_claim",
+            "product_integration_claim"
+          ],
+          "keyDocuments": [
+            "imac_development_notes",
+            "ipod_project_files",
+            "keynote_speeches"
+          ],
+          "keyQuotes": [
+            "q_design_simplicity",
+            "q_end_to_end_control"
+          ],
+          "uncertaintyNotes": [
+            "Role of other designers like Jonathan Ive in creative process",
+            "Health issues' impact on decision-making timeline unclear"
+          ],
+          "narrativeArc": "Documents systematic application of perfectionist principles to create integrated product ecosystem"
+        },
+        {
+          "chapterNumber": 5,
+          "chapter": "The Reality Distortion Field (1997-2011)",
+          "timespan": "Management style throughout Apple return",
+          "centralQuestion": "How did Jobs' demanding perfectionism both inspire breakthrough innovation and create organizational trauma?",
+          "claimsReferenced": [
+            "reality_distortion_claim",
+            "employee_burnout_evt",
+            "innovation_acceleration_claim"
+          ],
+          "keyDocuments": [
+            "hr_complaints",
+            "exit_interviews",
+            "product_timeline_analysis"
+          ],
+          "keyQuotes": [
+            "q_harsh_feedback_examples",
+            "q_impossible_deadlines"
+          ],
+          "uncertaintyNotes": [
+            "Long-term psychological impact on employees not systematically studied",
+            "Correlation vs. causation between harsh methods and innovation results"
+          ],
+          "narrativeArc": "Examines the human cost of visionary leadership and questions about necessary vs. excessive demands"
+        },
+        {
+          "chapterNumber": 6,
+          "chapter": "Legacy of the Perfectionist (2003-2011)",
+          "timespan": "Cancer diagnosis through death",
+          "centralQuestion": "How did awareness of mortality affect Jobs' approach to innovation, legacy, and human relationships?",
+          "claimsReferenced": [
+            "health_secrecy_claim",
+            "succession_planning_evt",
+            "family_relationships_claim"
+          ],
+          "keyDocuments": [
+            "medical_privacy_battles",
+            "tim_cook_transition_plans",
+            "family_interviews"
+          ],
+          "keyQuotes": [
+            "q_stanford_commencement",
+            "q_family_regrets"
+          ],
+          "uncertaintyNotes": [
+            "Private family dynamics largely undocumented",
+            "Alternative treatment decisions and reasoning unclear"
+          ],
+          "narrativeArc": "Explores whether facing mortality softened perfectionist tendencies and what this reveals about the man behind the myth"
+        }
+      ],
+      "throughlines": [
+        {
+          "theme": "Perfectionism as both creative driver and destructive force",
+          "chapters": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "evidence": "Documented across product development cycles, employee relationships, and personal costs throughout entire career"
+        },
+        {
+          "theme": "Control and abandonment anxiety",
+          "chapters": [
+            1,
+            3,
+            5,
+            6
+          ],
+          "evidence": "From adoption trauma through board conflicts, management style, and family relationships"
+        },
+        {
+          "theme": "Integration of technology and liberal arts",
+          "chapters": [
+            2,
+            4,
+            6
+          ],
+          "evidence": "Product design philosophy consistently emphasized humanistic values in technology"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Could Jobs' innovations have been achieved through less psychologically damaging leadership methods?",
+          "reason": "Impossible to conduct controlled experiment on alternative leadership approaches with same individual and circumstances",
+          "significance": "Central to understanding whether toxic perfectionism is necessary for breakthrough innovation"
+        },
+        {
+          "question": "What was the true extent of Jobs' technical understanding versus marketing genius?",
+          "reason": "Conflicting accounts from collaborators and limited direct technical documentation from Jobs himself",
+          "significance": "Affects assessment of his role in actual innovation versus product positioning"
+        },
+        {
+          "question": "How did his adoption and early abandonment experiences specifically shape his later behavior patterns?",
+          "reason": "Psychological causation difficult to prove definitively; limited clinical analysis available",
+          "significance": "Key to understanding whether his management style was strategic choice or psychological compulsion"
+        }
+      ],
+      "_phase": 9,
+      "_generated_at": "2025-12-15T16:44:09.903306"
+    },
+    "phase_10": {
+      "redactions": [
+        {
+          "content": "Detailed medical information about pancreatic cancer treatment specifics and private medical decisions",
+          "reason": "Medical privacy - specific treatment details not essential to public understanding",
+          "recommendation": "Modify"
+        },
+        {
+          "content": "Unverified personal relationship details involving non-public figures",
+          "reason": "Privacy of individuals who didn't choose public life",
+          "recommendation": "Remove"
+        },
+        {
+          "content": "Specific salary and compensation details of non-executive employees",
+          "reason": "Privacy of non-public individuals",
+          "recommendation": "Remove"
+        }
+      ],
+      "disclosures": [
+        "This biography relies heavily on public statements, published interviews, and documented corporate communications for the period 1976-2011",
+        "Accounts of internal Apple dynamics and personal relationships often conflict between sources; we present documented perspectives with attribution",
+        "Jobs's early life (1955-1976) documentation is limited; some details rely on later recollections that may be imperfect",
+        "Perspectives from former colleagues and competitors are labeled as viewpoints, not established facts",
+        "Financial and business details are drawn from public filings and reported information available through 2011",
+        "This biography cannot capture the full complexity of personal relationships or private motivations"
+      ],
+      "factCheckFlags": [
+        {
+          "claim": "Specific details about the 1985 Apple boardroom confrontation and departure circumstances",
+          "currentConfidence": 0.7,
+          "verificationNeeded": "Additional firsthand accounts from board members present"
+        },
+        {
+          "claim": "Exact timeline and decision-making process for iPhone development priorities",
+          "currentConfidence": 0.6,
+          "verificationNeeded": "Internal Apple documentation or additional engineering team interviews"
+        },
+        {
+          "claim": "Details about relationship dynamics with John Sculley during 1983-1985 period",
+          "currentConfidence": 0.65,
+          "verificationNeeded": "Contemporaneous documentation beyond published accounts"
+        }
+      ],
+      "ethicalConsiderations": [
+        {
+          "issue": "Portrayal of demanding management style and its impact on employees",
+          "handling": "Present documented behaviors with context about industry norms and employee perspectives",
+          "justification": "Public figure's professional conduct is legitimate subject of biography while respecting affected individuals"
+        },
+        {
+          "issue": "Discussion of adoption and family relationships",
+          "handling": "Include only information Jobs made public or that provides essential context for his development",
+          "justification": "Biographical relevance balanced against family privacy"
+        },
+        {
+          "issue": "Medical condition and end-of-life period coverage",
+          "handling": "Focus on publicly available information and impact on Apple/public life, not private medical details",
+          "justification": "Public interest in leadership transition while respecting medical privacy"
+        },
+        {
+          "issue": "Representation of complex business relationships and conflicts",
+          "handling": "Present multiple documented perspectives without taking sides in disputes",
+          "justification": "Objective journalism requires acknowledging different viewpoints on controversial matters"
+        }
+      ],
+      "publicationReadiness": {
+        "ready": true,
+        "blockers": [],
+        "recommendations": [
+          "Add disclaimer about the inherent limitations of posthumous biography",
+          "Include note about the evolving nature of technology industry context",
+          "Consider adding bibliography of major sources for reader reference",
+          "Ensure all quoted material is properly attributed",
+          "Verify that criticisms are balanced with acknowledged achievements"
+        ]
+      },
+      "_phase": 10,
+      "_generated_at": "2025-12-15T16:44:29.974221"
+    }
+  }
+}
