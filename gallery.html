@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Steve Jobs</title>
+    <meta name="description" content="Photo gallery of Steve Jobs">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hero-gradient { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
+        .card-hover { transition: transform 0.3s, box-shadow 0.3s; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+        .nav-link { transition: color 0.2s; }
+        .nav-link:hover { color: #f59e0b; }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        .lyrics-text { white-space: pre-wrap; font-family: Georgia, serif; line-height: 1.8; }
+        .chord { color: #f59e0b; font-weight: bold; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    
+    <nav class="fixed w-full z-50 bg-gray-900 bg-opacity-95 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-yellow-500">STEVE</a>
+                <div class="hidden md:flex space-x-6 text-sm">
+                    <a href="/" class="nav-link text-gray-300">Home</a>
+<a href="about.html" class="nav-link text-gray-300">Biography</a>
+<a href="timeline.html" class="nav-link text-gray-300">Timeline</a>
+<a href="videos.html" class="nav-link text-gray-300">Videos</a>
+<a href="gallery.html" class="nav-link text-white">Gallery</a>
+<a href="legacy.html" class="nav-link text-gray-300">Legacy</a>
+<a href="sources.html" class="nav-link text-gray-300">Sources</a>
+
+                </div>
+                <button class="md:hidden text-white" onclick="toggleMobileMenu()">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-gradient pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <h1 class="text-5xl font-bold mb-4">Photo Gallery</h1>
+            <p class="text-xl text-gray-300">45 images from Steve Jobs's life and career</p>
+        </div>
+    </section>
+
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Portraits</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Steve Jobs at the Ho" alt="Steve Jobs at the Homebrew Computer Club"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Steve Jobs at the Homebrew Computer Club</h3>
+                        <p class="text-gray-400 text-xs">1977 • Tom Munnecke</p>
+                        <p class="text-gray-500 text-xs mt-2">Young Steve Jobs with long hair at the Homebrew Computer Club meeting...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Steve Jobs Official " alt="Steve Jobs Official Apple Portrait"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Steve Jobs Official Apple Portrait</h3>
+                        <p class="text-gray-400 text-xs">1984 • Norman Seeff</p>
+                        <p class="text-gray-500 text-xs mt-2">Iconic black and white portrait of Jobs in casual attire...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Steve Jobs Thinking " alt="Steve Jobs Thinking Pose"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Steve Jobs Thinking Pose</h3>
+                        <p class="text-gray-400 text-xs">1981 • Diana Walker</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs in contemplative pose with hand to chin...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP.jpg" alt="Steve Jobs with Apple Logo"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Steve Jobs with Apple Logo</h3>
+                        <p class="text-gray-400 text-xs">1981 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Professional headshot with rainbow Apple logo in background...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Steve Jobs NeXT Port" alt="Steve Jobs NeXT Portrait"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Steve Jobs NeXT Portrait</h3>
+                        <p class="text-gray-400 text-xs">1988 • Deborah Feingold</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs during his NeXT years, more mature appearance...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Steve Jobs Return to" alt="Steve Jobs Return to Apple"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Steve Jobs Return to Apple</h3>
+                        <p class="text-gray-400 text-xs">1997 • Moshe Brakha</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs upon his return as interim CEO of Apple...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Steve Jobs Think Dif" alt="Steve Jobs Think Different Portrait"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Steve Jobs Think Different Portrait</h3>
+                        <p class="text-gray-400 text-xs">1997 • Albert Watson</p>
+                        <p class="text-gray-500 text-xs mt-2">Black and white portrait used in Think Different campaign...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Steve Jobs Final Pub" alt="Steve Jobs Final Public Portrait"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Steve Jobs Final Public Portrait</h3>
+                        <p class="text-gray-400 text-xs">2011 • Ryan Anson</p>
+                        <p class="text-gray-500 text-xs mt-2">One of the last professional portraits before his death...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Career Milestones</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://commons.wikimedia.org/wiki/File:Apple_I_Computer.jpg" alt="Apple I Computer Debut"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Apple I Computer Debut</h3>
+                        <p class="text-gray-400 text-xs">1976 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">The original Apple I computer built by Wozniak and marketed by Jobs...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Apple II Launch Even" alt="Apple II Launch Event"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Apple II Launch Event</h3>
+                        <p class="text-gray-400 text-xs">1977 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs presenting the Apple II at the West Coast Computer Faire...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Apple IPO Bell Ringi" alt="Apple IPO Bell Ringing"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Apple IPO Bell Ringing</h3>
+                        <p class="text-gray-400 text-xs">1980 • NYSE Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs at the NYSE for Apple's initial public offering...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Macintosh Unveiling" alt="Macintosh Unveiling"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Macintosh Unveiling</h3>
+                        <p class="text-gray-400 text-xs">1984 • Apple Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs dramatically unveiling the first Macintosh from a bag...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Jobs Leaves Apple" alt="Jobs Leaves Apple"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Jobs Leaves Apple</h3>
+                        <p class="text-gray-400 text-xs">1985 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs cleaning out his office after being ousted from Apple...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=NeXT Computer Launch" alt="NeXT Computer Launch"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">NeXT Computer Launch</h3>
+                        <p class="text-gray-400 text-xs">1988 • NeXT Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs presenting the NeXT Computer at its launch event...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Pixar IPO" alt="Pixar IPO"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Pixar IPO</h3>
+                        <p class="text-gray-400 text-xs">1995 • Reuters</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs celebrating Pixar's IPO after Toy Story's success...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Apple Acquisition of" alt="Apple Acquisition of NeXT"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Apple Acquisition of NeXT</h3>
+                        <p class="text-gray-400 text-xs">1996 • Apple Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Press conference announcing Apple's acquisition of NeXT...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=iMac Introduction" alt="iMac Introduction"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">iMac Introduction</h3>
+                        <p class="text-gray-400 text-xs">1998 • Apple Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs unveiling the translucent blue iMac...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=iPod Launch" alt="iPod Launch"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">iPod Launch</h3>
+                        <p class="text-gray-400 text-xs">2001 • Apple Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs introducing the first iPod with '1,000 songs in your pocket'...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=iTunes Store Launch" alt="iTunes Store Launch"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">iTunes Store Launch</h3>
+                        <p class="text-gray-400 text-xs">2003 • Apple Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs announcing the iTunes Music Store...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=iPhone Introduction" alt="iPhone Introduction"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">iPhone Introduction</h3>
+                        <p class="text-gray-400 text-xs">2007 • Apple Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs holding up the first iPhone at Macworld...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Personal Life</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Jobs with Daughter L" alt="Jobs with Daughter Lisa"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Jobs with Daughter Lisa</h3>
+                        <p class="text-gray-400 text-xs">1991 • Family Photo</p>
+                        <p class="text-gray-500 text-xs mt-2">Rare photo of Jobs with his daughter Lisa Brennan-Jobs...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Wedding to Laurene P" alt="Wedding to Laurene Powell"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Wedding to Laurene Powell</h3>
+                        <p class="text-gray-400 text-xs">1991 • Wedding Photographer</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs and Laurene Powell at their wedding ceremony...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Jobs Family Portrait" alt="Jobs Family Portrait"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Jobs Family Portrait</h3>
+                        <p class="text-gray-400 text-xs">2005 • Annie Leibovitz</p>
+                        <p class="text-gray-500 text-xs mt-2">Formal family portrait with Laurene and their children...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Jobs at Home in Palo" alt="Jobs at Home in Palo Alto"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Jobs at Home in Palo Alto</h3>
+                        <p class="text-gray-400 text-xs">2004 • Diana Walker</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs in his famously sparse Palo Alto home...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Meditation Retreat" alt="Meditation Retreat"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Meditation Retreat</h3>
+                        <p class="text-gray-400 text-xs">1974 • Personal Photo</p>
+                        <p class="text-gray-500 text-xs mt-2">Young Jobs during his spiritual journey to India...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=With Steve Wozniak i" alt="With Steve Wozniak in Garage"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">With Steve Wozniak in Garage</h3>
+                        <p class="text-gray-400 text-xs">1976 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs and Wozniak in the famous garage where Apple started...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Events & Appearances</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=All Things Digital C" alt="All Things Digital Conference"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">All Things Digital Conference</h3>
+                        <p class="text-gray-400 text-xs">2007 • Getty Images</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs and Bill Gates on stage together at D5 conference...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP.jpg" alt="Stanford Commencement Speech"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Stanford Commencement Speech</h3>
+                        <p class="text-gray-400 text-xs">2005 • Stanford University</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs delivering his famous 'Stay Hungry, Stay Foolish' speech...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Macworld Keynote" alt="Macworld Keynote"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Macworld Keynote</h3>
+                        <p class="text-gray-400 text-xs">2007 • Apple Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs on stage at the iPhone introduction keynote...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Time Magazine Cover" alt="Time Magazine Cover"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Time Magazine Cover</h3>
+                        <p class="text-gray-400 text-xs">1982 • Time Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs on the cover as 'America's Risk Taker'...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Fortune Cover Story" alt="Fortune Cover Story"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Fortune Cover Story</h3>
+                        <p class="text-gray-400 text-xs">1981 • Fortune Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Cover story about the young entrepreneur...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Rolling Stone Interv" alt="Rolling Stone Interview"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Rolling Stone Interview</h3>
+                        <p class="text-gray-400 text-xs">1994 • Rolling Stone Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs during his NeXT years for Rolling Stone feature...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Academy Awards Appea" alt="Academy Awards Appearance"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Academy Awards Appearance</h3>
+                        <p class="text-gray-400 text-xs">1996 • Getty Images</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs at the Oscars after Toy Story's nomination...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=WWDC Keynote" alt="WWDC Keynote"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">WWDC Keynote</h3>
+                        <p class="text-gray-400 text-xs">2005 • Apple Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs announcing the transition to Intel processors...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=iPhone 4 Antenna Pre" alt="iPhone 4 Antenna Press Conference"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">iPhone 4 Antenna Press Conference</h3>
+                        <p class="text-gray-400 text-xs">2010 • Apple Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs addressing the iPhone 4 antenna issues...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Historical Context</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=West Coast Computer " alt="West Coast Computer Faire"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">West Coast Computer Faire</h3>
+                        <p class="text-gray-400 text-xs">1977 • Fair Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">The Apple booth at the first major computer show...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://commons.wikimedia.org/wiki/File:Apple_first_logo.png" alt="Original Apple Logo"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Original Apple Logo</h3>
+                        <p class="text-gray-400 text-xs">1976 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">The original elaborate Apple logo with Newton under apple tree...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Computer History Mus" alt="Computer History Museum"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Computer History Museum</h3>
+                        <p class="text-gray-400 text-xs">2007 • CHM Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs at the Computer History Museum for iPhone retrospective...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Apple Store Opening" alt="Apple Store Opening"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Apple Store Opening</h3>
+                        <p class="text-gray-400 text-xs">2001 • Apple Staff</p>
+                        <p class="text-gray-500 text-xs mt-2">Jobs at the first Apple Store opening in Tysons Corner...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Silicon Valley in th" alt="Silicon Valley in the 1970s"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Silicon Valley in the 1970s</h3>
+                        <p class="text-gray-400 text-xs">1975 • Local Press</p>
+                        <p class="text-gray-500 text-xs mt-2">The emerging tech scene where Jobs got his start...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Homebrew Computer Cl" alt="Homebrew Computer Club Meeting"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Homebrew Computer Club Meeting</h3>
+                        <p class="text-gray-400 text-xs">1975 • Club Member</p>
+                        <p class="text-gray-500 text-xs mt-2">The hobbyist group where Jobs and Wozniak first showed their work...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=1984 Super Bowl Ad" alt="1984 Super Bowl Ad"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">1984 Super Bowl Ad</h3>
+                        <p class="text-gray-400 text-xs">1984 • Ridley Scott</p>
+                        <p class="text-gray-500 text-xs mt-2">Still from the famous '1984' Macintosh commercial...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Think Different Camp" alt="Think Different Campaign"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Think Different Campaign</h3>
+                        <p class="text-gray-400 text-xs">1997 • TBWA\Chiat\Day</p>
+                        <p class="text-gray-500 text-xs mt-2">Iconic black and white portraits from the campaign...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500">
+            <p>&copy; 2025 steve-jobs.bio - A Biography Domains Site</p>
+            <p class="text-sm mt-2">Research-based biography with documented sources</p>
+        </div>
+    </footer>
+</body>
+</html>
